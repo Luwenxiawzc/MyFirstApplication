@@ -38,15 +38,14 @@ public class MainActivity extends AppCompatActivity {
                 i++;
             }
         });
-        button_1.setOnClickListener(new button_1Listener());
+        /*button_1.setOnClickListener(new button_1Listener());
     }
     private class button_1Listener implements View.OnClickListener {
         @Override
         public void onClick(View view) {
                 textviewHelloWorld.setText("你");
                 textviewHelloWorld1.setText("好");
-        }
+        }*/
     }
 }
-
 
