@@ -18,12 +18,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        /*textviewHelloWorld = this.findViewById(R.id.text_view_hello_world);
+        textviewHelloWorld = this.findViewById(R.id.text_view_hello_world);
         textviewHelloWorld1 = this.findViewById(R.id.text_view_hello_world1);
         textviewHelloWorld.setText(R.string.andriod);
         textviewHelloWorld1.setText(R.string.andriod1);
 
-        Button button_1 = findViewById(R.id.button_1);
+        /*Button button_1 = findViewById(R.id.button_1);
         button_1.setOnClickListener(new View.OnClickListener() {
             int i = 0;
             @Override
