@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        textviewHelloWorld = this.findViewById(R.id.text_view_hello_world);
+        /*textviewHelloWorld = this.findViewById(R.id.text_view_hello_world);
         textviewHelloWorld1 = this.findViewById(R.id.text_view_hello_world1);
         textviewHelloWorld.setText(R.string.andriod);
         textviewHelloWorld1.setText(R.string.andriod1);
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
                 i++;
             }
         });
-        /*button_1.setOnClickListener(new button_1Listener());
+        button_1.setOnClickListener(new button_1Listener());
     }
     private class button_1Listener implements View.OnClickListener {
         @Override
