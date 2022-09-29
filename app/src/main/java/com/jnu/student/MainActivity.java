@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         textviewHelloWorld.setText(R.string.andriod);
         textviewHelloWorld1.setText(R.string.andriod1);
 
-        /*Button button_1 = findViewById(R.id.button_1);
+        Button button_1 = findViewById(R.id.button_1);
         button_1.setOnClickListener(new View.OnClickListener() {
             int i = 0;
             @Override
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
                 i++;
             }
         });
-        button_1.setOnClickListener(new button_1Listener());
+        /*button_1.setOnClickListener(new button_1Listener());
     }
     private class button_1Listener implements View.OnClickListener {
         @Override
